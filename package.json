@@ -1,0 +1,19 @@
+{
+  "name": "yoga-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "local": "./node_modules/.bin/nodemon --watch server -e js server/index.js"
+  },
+  "author": "Justine Gagnepain",
+  "license": "ISC",
+  "dependencies": {
+    "appearin-sdk": "0.0.4",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0"
+  }
+}
