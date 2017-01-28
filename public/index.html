@@ -6,6 +6,23 @@
 </head>
 <body>
   <iframe id="iframe-appear-in"></iframe>
+  <h2>Register</h2>
+  <form action="/registration" method="post">
+    <label for="username" style="display:block" class="registration-label">Email : </label>
+    <input id="username" type="email" name="email" class="text-input registration-input">
+    <label for="password" style="display:block" class="registration-label" >Password:</label>
+    <input id="password" type="password" name="password" class="text-input registration-input">
+    <input type="submit" value="Register" class="button centered-button">
+  </form>
+
+  <h2>Login</h2>
+  <form action="/login" method="post">
+    <label for="username" style="display:block" class="registration-label">Email : </label>
+    <input id="username" type="email" name="email" class="text-input registration-input">
+    <label for="password" style="display:block" class="registration-label" >Password:</label>
+    <input id="password" type="password" name="password" class="text-input registration-input">
+    <input type="submit" value="Register" class="button centered-button">
+  </form>
 
   <script type="text/javascript" src="vendor/jquery.js"></script>
   <script src="//developer.appear.in/scripts/appearin-sdk.0.0.4.min.js"></script>
